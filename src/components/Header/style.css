@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.app-header{
+    height: 80px;
+    width: 100%;
+    flex-direction: row;
+    background-color: #01C4A6;
+    padding: 0 5%;
+}
+
+.app-header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.app-header-container-logo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 5px;
+}
+
+.app-header-logo{
+    height: 30px;
+    padding: 5px;
+}
+
+.app-header-container-others-options{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 3px;
+    padding: 5px;
+    height: 50px;
+}
+
+.app-header-button{
+    border: none;
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    height: 30px;
+    /* padding: 0 5px; */
+    /* margin: 5px; */
+
+    cursor: pointer;
+}
+
+.app-header-container-others-options:hover{
+    /* padding: 10px; */
+    text-decoration: underline;
+}

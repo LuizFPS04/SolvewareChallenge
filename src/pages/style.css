@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lato&family=Ubuntu&display=swap');
+
+.app-main-container{
+    background-image: url('../assets/doctoralia-background.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: 750px;
+    background-color: #01C4A6;
+    padding: 10% 5% 5%;
+}
+
+.app-main-container-text h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+    color: #FFFFFF;
+}
+
+.app-main-container-text h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #CCF3ED;
+}
+
+.app-main-container-search{
+    background: rgba(0,0,0,.07);
+    border-radius: 5px;
+    padding: 2px;
+
+    margin: 20px 0;
+    display: block;
+    text-align: left;
+    width: 60%;
+}
+
+.app-main-container-a{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.icon-iten{
+    margin: 0 10px;
+}
+
+.app-main-container-autocomp{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.app-main-container-help{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
+    
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    position: relative;
+    text-align: left;
+    width: 55%;
+}
+
+.app-main-container-card1{
+    align-items: center;
+    display: flex;
+    flex: 1 1 auto;
+    min-height: 1px;
+    background-color: #E9E9E9;
+    color: #9A41EC;
+    padding: 0 10px;
+
+    border-bottom: solid 1px #E9E9E9;
+}
+
+.app-main-container-card2{
+    display: flex;
+    flex: 1 1 auto;
+    min-height: 1px;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.icon-iten2{
+    margin: 0 5px;
+}
+
+.help{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.app-main-container-list{
+    background-color: #E9E9E9;
+    align-items: center;
+    text-align: center;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin: 45px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.list-options{
+    align-items: center;
+    margin-left: 20px;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.app-main-container-list ul li{
+    display: inline-block;
+}
+
+.app-main-container-widgets{
+    display: flex;
+}
+
+.app-main-container-comments{
+    display: flex;
+    justify-content: space-around;
+
+    border-top: solid 1px #E9E9E9;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+    color: #1B2734;
+    padding: 50px 0;
+}
+
+.left-comment{
+    margin: 0 50px;
+    width: 40%;
+    text-align: left;
+}
+
+.right-comment{
+    margin: 0 50px;
+    width: 40%;
+    text-align: left;
+}

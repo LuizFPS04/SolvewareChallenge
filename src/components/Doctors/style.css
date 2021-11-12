@@ -1,0 +1,23 @@
+.all-comment{
+    display: flex;
+    margin: 10px 0 0 20px;
+}
+
+.img-avatar .img{
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+}
+
+.all-text{
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    margin: 0 5px 5px 5px;
+    padding: 10px;
+}
+
+.text-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
